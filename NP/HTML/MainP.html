@@ -3,32 +3,47 @@
 <head>
     <meta charset="utf-8">
     <title>Petrusha A.S.</title>
+    <link rel="stylesheet" href="../CSS/Styles.css" type="text/css">
 </head>
 <body>
-    <header>
-        <a href="#">Главная</a>
-        <a href="pages/Contacts.html">Контакты</a>
-        <a href="pages/Hobby.html">Увлечения</a>
+    <header class="header">
+        <a href="#aboutme" class="header_link link">Про меня</a>
+        <a href="#hobby" class="header_link link">Увлечения</a>
+        <a href="#myway" class="header_link link" title="Как я стал разработчиком">Путь самурая</a>
+        <a href="#contacts" class="header_link link">Контакты</a>
     </header>
-    <main>
-        <h1>Петруша Андрей. Ученик.</h1>
-            <img src="../img/me 1.jpg" width="500" height="500" alt="me">
-            <h2>Про меня</h2>
+    <main class="main">
+        <h1 class="title">Петруша Андрей. Ученик.</h1>
+            <div class="image_of_me">
+                <img src="../img/me 1.jpg" width="470" height="500" alt="me" class="img">
+            </div>
+            <h2 class="subtitle" id="aboutme">Про меня</h2>
                 <p>Меня зовут Андрей. Мне 24. У меня проблемы с усидчивостью и упорством.<br> 
                    Я хочу побороть эти проблемы и научиться создавать сайты с нуля.</p>
                 <p>Живу в Питере. Люблю играть.</p>
                 <p>На этом курсе надеюсь раскрыть в себе потенциал к созданию сайтов или в целом к работе в IT</p>
-            <h3>Как я стал разработчиком</h3>
+            <h2 class="subtitle" id="hobby">Увлечения. Игры.</h2>
+                <p>Увлечения у меня разные, но, как основное, я бы выделил именно игры.<br> 
+                   В основном мне нравятся игры жанра MMORPG.</p>
+            <h2 class="subtitle" id="myway">Как я стал разработчиком</h2>
                 <p>
                     <ul>
                         <li>02.11.21. Я приступил к изучению материалов курса.</li>
                         <li>04.11.21. Я закончил изучение первого модуля.</li>
                         <li>05.11.21. Я выполнил задание "Сайт-визитка" и приступил к изучению Второго модуля "Основы CSS".</li>
+                        <li>11.11.21. Я закончил изучение второго модуля.</li>
                     </ul>
                 </p>
+            <h2 class="subtitle" id="contacts">Мои контакты</h2>
+                <p>По всем вопросам можно обращаться на почту или в Телеграм:</p>
+                    <ul>
+                        <li>E-mail: <a href="mailto:pas100@yandex.ru" title="Отправить голубя" class="link">pas100@yandex.ru</a></li>
+                        <li>Telegram: <a href="https://t.me/ambulavero" title="Написать в Telegram" target="_blank" class="link">@Ambulavero</a></li>
+                        <li>Vkontakte: <a href="https://vk.com/ambulavero" title="Открыть VK" target="_blank" class="link"> тыкать сюда</a></li>
+                    </ul>
     </main>
-    <footer>
-        <span>&copy;&nbsp;Skillfactory</span>
+    <footer class="footer">
+        <span>&copy;&nbsp;Skillfactory &#9787; 2021 by PMG</span>
     </footer>
 </body>
 </html>
