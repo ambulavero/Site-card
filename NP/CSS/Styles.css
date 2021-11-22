@@ -1,15 +1,26 @@
 html{
-    font-size: 18px;
+    font-size: 22px;
+}
+
+@font-face {
+    src: url('../Fonts/Amatic_font/AmaticSC-Bold.ttf');
+    font-family: 'Amatic bold';
+}
+
+@font-face {
+    src: url('../Fonts/Monserrat_font/MontserratAlternates-ExtraBold.ttf');
+    font-family: 'Monserrat extrabold';
+}
+
+@font-face {
+    src: url('../Fonts/Zenkure_font/ZenKurenaido-Regular.ttf');
+    font-family: 'Zenkure regular';
 }
 
 body {
     background-color: rgba(122, 115, 115, 0.5);
+    font-family: 'Zenkure regular', Bold, Helvetica, Arial, sans-serif;
     margin: 0;
-}
-
-@font-face {
-    src: url("../Fonts/Amatic_font/AmaticSC-Bold.ttf");
-    font-family: "Amatic Bold";
 }
 
 .main {
