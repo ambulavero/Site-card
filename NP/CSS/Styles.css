@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+@font-face {
+    src: url("../Fonts/Amatic_font/AmaticSC-Bold.ttf");
+    font-family: "Amatic Bold";
+}
+
 .main {
     margin: auto;
     width: 1000px;
